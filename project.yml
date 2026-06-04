@@ -1,0 +1,28 @@
+name: TCA26EnumStateObservationRepro
+options:
+  bundleIdPrefix: com.davdroman
+  deploymentTarget:
+    iOS: "17.0"
+packages:
+  TCA26:
+    url: https://github.com/pointfreeco/TCA26
+    revision: 4856776213088f206a49a6c8db0d3184020b2a28
+settings:
+  base:
+    CURRENT_PROJECT_VERSION: 1
+    GENERATE_INFOPLIST_FILE: YES
+    INFOPLIST_KEY_UILaunchScreen_Generation: YES
+    MARKETING_VERSION: 1.0
+    SWIFT_VERSION: 6.0
+targets:
+  TCA26EnumStateObservationRepro:
+    type: application
+    platform: iOS
+    sources:
+      - Sources
+    dependencies:
+      - package: TCA26
+        product: ComposableArchitecture2
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.davdroman.TCA26EnumStateObservationRepro
