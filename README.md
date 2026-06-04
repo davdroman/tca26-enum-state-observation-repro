@@ -14,7 +14,7 @@ The app API involved is a SwiftUI view reading `store.state` in `body`.
 4. In the `WithParams` section, tap `First` and `Second`. The displayed state does not change.
 5. Tap `Force redraw`. The `WithParams` label catches up, which shows the store state changed but SwiftUI was not invalidated.
 
-The project pins `pointfreeco/TCA26` to `4856776213088f206a49a6c8db0d3184020b2a28`.
+The project tracks the `main` branch of `pointfreeco/TCA26`.
 
 ## Project Generation
 

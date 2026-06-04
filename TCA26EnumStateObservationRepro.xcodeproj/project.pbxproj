@@ -304,8 +304,8 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/pointfreeco/TCA26";
 			requirement = {
-				kind = revision;
-				revision = 4856776213088f206a49a6c8db0d3184020b2a28;
+				branch = main;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

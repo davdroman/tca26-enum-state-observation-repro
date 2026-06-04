@@ -6,7 +6,7 @@ options:
 packages:
   TCA26:
     url: https://github.com/pointfreeco/TCA26
-    revision: 4856776213088f206a49a6c8db0d3184020b2a28
+    branch: main
 settings:
   base:
     CURRENT_PROJECT_VERSION: 1
